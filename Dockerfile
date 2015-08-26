@@ -17,7 +17,7 @@ RUN apt-get install -y mysql-server mysql-client libmysqlclient-dev
 # Install Apache
 RUN apt-get install -y apache2
 # Install php
-RUN apt-get install -y php5 libapache2-mod-php5 php5-mcrypt
+RUN apt-get install -y php5 libapache2-mod-php5 php5-mcrypt php5-mysql
 
 # Install phpMyAdmin
 RUN mysqld & \
